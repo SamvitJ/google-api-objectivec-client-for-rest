@@ -890,8 +890,14 @@
 			attributes = {
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
+					4F38F6A50B66E91D00B24B81 = {
+						DevelopmentTeam = PFW5N3BMBW;
+					};
 					F4368F711B8233BF00E17643 = {
 						CreatedOnToolsVersion = 6.3.2;
+					};
+					F4469D791C40229D00BCFAA1 = {
+						DevelopmentTeam = PFW5N3BMBW;
 					};
 				};
 			};
@@ -1373,6 +1379,7 @@
 		4F38F7120B66EF2C00B24B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1388,6 +1395,7 @@
 		4F38F7130B66EF2C00B24B81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1437,6 +1445,7 @@
 		F4469DB21C40229D00BCFAA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1455,6 +1464,7 @@
 		F4469DB31C40229D00BCFAA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
