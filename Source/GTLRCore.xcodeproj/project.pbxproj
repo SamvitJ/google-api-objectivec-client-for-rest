@@ -1453,6 +1453,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTLR;
 				PRODUCT_NAME = GTLR;
 				SDKROOT = iphoneos;
